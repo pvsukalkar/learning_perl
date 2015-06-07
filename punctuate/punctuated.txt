@@ -1,0 +1,5 @@
+This is a simple punctuation program. What it does is, it takes any text file
+as input and then punctuates it simply. For ex 'f' at the start of this
+sentence will be uppercase.
+Similarly the s at the start of this statement. Is it useful? Even this y is
+also uppercased ! And even this a too.
