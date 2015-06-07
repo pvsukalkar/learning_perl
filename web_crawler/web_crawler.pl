@@ -5,7 +5,7 @@ use strict;
 use LWP::Simple; 
 
 #my $url = shift @ARGV || die "";
-my $url = shift || die "Please provide initial url ";
+my $url = shift || die "Please provide initial url as command line argument. Ex: perl web_crawler.pl http://www.thehindu.com";
 my $max = 10 ; 
 
 my $html = get($url); 
