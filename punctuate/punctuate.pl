@@ -1,9 +1,9 @@
 #!/usr/bin/perl -w
 use strict;
 my $filename = "english.txt";
-my $tempfile = "english.txt.tmp";
+my $tempfile = "punctuated.txt";
 open (FILE,'<',$filename) || die "could not open english.txt";
-open (FILE2,">$tempfile") || die "could not open english.txt.tmp";
+open (FILE2,">$tempfile") || die "could not open punctutaed.txt";
 my $sentenceFinished = 0;
 my $lineno=0;
 while (my $row = <FILE>){
