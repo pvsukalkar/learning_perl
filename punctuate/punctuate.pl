@@ -3,7 +3,7 @@ use strict;
 my $filename = "english.txt";
 my $tempfile = "punctuated.txt";
 open (FILE,'<',$filename) || die "could not open english.txt";
-open (FILE2,">$tempfile") || die "could not open punctutaed.txt";
+open (FILE2,">$tempfile") || die "could not open punctuated.txt";
 my $sentenceFinished = 0;
 my $lineno=0;
 while (my $row = <FILE>){
